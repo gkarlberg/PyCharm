@@ -5,6 +5,7 @@ import math
 def etaylor(x, n):
     """e calculated using Taylor expansion
     :type x: float
+    :type n: int
     """
     e = 1.0
     for i in range(1, n):
